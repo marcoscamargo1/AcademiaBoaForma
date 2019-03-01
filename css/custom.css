@@ -73,6 +73,28 @@ html, body {height: 100%;}
 }
 .unidades article p {line-height: 1.8rem;}
 
+/* CONTATO */
+.contato {background-image: url('../img/textura1.png');}
+.contato .mapa {min-height: 560px;}
+.contato .mapa iframe {width: 100%; min-height: 560px; border: none;}
+.contato .informacoes {background-image: url('../img/textura2.png'); min-height: 560px; padding: 30px;}
+.contato h4 {font-size: 1.2rem; text-transform: uppercase;font-weight: 900;}
+.contato .formulario {min-height: 560px; padding: 30px;}
+
+/* DEPOIMENTOS */
+.depoimentos .titulo::after {border-color: #fff;}
+.depoimentos img {width: 150px;}
+.depoimentos h4 {font-size: 1.2rem; font-weight: 900;}
+
+/* RODAPÉ */
+.rodape {
+	background-image: url('../img/bg-rodape.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+
+
 /* CUSTOM */
 
 
@@ -108,7 +130,7 @@ nav i.material-icons, nav a.button-collapse i {
 
 /* MEDIA (BREAK POINTS) - AJUSTA TAMANHO PARA SMARTPHONES, TABLETS E DESKTOPS */
 @media only screen and (max-width: 480px) { /*smartphones*/
-.card-image-horizontal {display: none;}s
+.card-image-horizontal {display: none;}
 }
 
 @media only screen and (min-width: 601px) { /*tablets*/
