@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsividade;"user-scalable=no" não deixa o usuário dar zoom.(opcional - testar) -->
+	<title>Centro Boa Forma - Seu espaço de saúde </title>
+	<link rel="icon" href="img/fav.png"> <!--colocar icone no título da página (fav de favicon)-->
+
+	<!-- GOOGLE ICONS e FONTS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<!-- MATERIALIZE CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+<!----------HEADER------------->
+<header>
+		<!-- menu mobile -->
+	<ul class="side-nav" id="menu-mobile">
+		<li><a href="#home">Home</a></li>
+		<li><a href="#sobre">Quem somos</a></li>
+		<li><a href="#servicos">Serviços</a></li>
+		<li><a href="#unidades">Unidades</a></li>
+		<li><a href="#contato">Contato</a></li>
+	</ul> <!-- fim menu mobile -->
+
+	<div class="navbar-fixed">
+	<nav class="navbar z-depth-0">
+		<div class="nav-wrapper container">
+			<h1 class="logo_text">Centro Boa Forma - Seu espaço de saúde</h1>
+			<a href=""><img class="logo_img" src="img/logo.png" alt="Centro Boa Forma"></a>
+
+			<ul class="right light hide-on-med-and-down"> <!-- hide-on-med-and-down -> esta classe esconde o menu quando é mobile -->
+				<li><a href="#home">Home</a></li>
+				<li><a href="#sobre">Quem somos</a></li>
+				<li><a href="#servicos">Serviços</a></li>
+				<li><a href="#unidades">Unidades</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+
+			<a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+		</div> <!-- "nav-wrapper container" -->
+	</nav>
+	</div> <!-- "navbar-fixed" -->
+
+</header>	
+<!----------HOME------------->
+<section class="home bloco scrollspy" id="home">
+	<div class="row container banner">
+		<div class="col s12 center">
+			<h2 class="white-text">O melhor treinamento funcional da região</h2>
+			<p class="white-text light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit ante. Vestibulum leo dolor, consequat et rutrum ac, commodo nec urna. Nulla felis dolor, maximus a dolor in, feugiat mattis urna. Donec a cursus lorem. In consequat euismod condimentum. Integer convallis quam ut enim laoreet, et tempus turpis tristique.</p>
+			<div class="row">
+				<a href="#sobre" class="btn btn-large blue-logo">Sobre nós</a>
+				<a href="#contato" class="btn btn-large white black-text">Contato</a>
+			</div> <!-- "row botoes" -->
+	    </div> <!-- "col s12 center"-->
+	</div> <!-- "row container banner" -->	
+</section>
+
+<!----------QUEM SOMOS/SOBRE------------->
+<section class="sobre bloco scrollspy" id="sobre">
+	<div class="row container">
+		<div class="col s12 center">
+			<h2 class="light titulo">Quem somos</h2>
+		</div> <!--"col s12"-->
+		<div class="col s12 l6">
+			<p class="light">
+				Duis eget luctus sem, vitae rhoncus nulla. Suspendisse augue mauris, faucibus eget nulla efficitur, tincidunt finibus felis. Quisque ut molestie libero. Cras porta felis eget consectetur maximus. Morbi dignissim diam sit amet augue commodo ornare. Sed sagittis lectus non metus pellentesque, quis consectetur odio blandit. Aenean semper consequat ipsum, at rhoncus ex euismod eget. Curabitur et quam at diam pellentesque rhoncus. Maecenas auctor ultrices nisl quis faucibus. In ut auctor tellus, vitae dignissim massa. Aliquam eleifend non velit et congue. Maecenas hendrerit eros nulla, aliquet iaculis mauris molestie sed. 
+			</p>
+		</div> <!--"col s12 l6">-->
+		<div class="col s12 l6">
+			<div class="carousel carousel-slider" data-indicators="true">
+				<a href="#one!" class="carousel-item">
+					<img alt="Imagem institucional" src="img/banner-01.jpg">
+				</a>
+				<a href="#two!" class="carousel-item">
+					<img alt="Imagem institucional" src="img/banner-02.jpg">
+				</a>
+				<a href="#three!" class="carousel-item">
+					<img alt="Imagem institucional" src="img/banner-03.jpg">
+				</a>				
+			</div> <!-- "carousel carousel-slider"-->
+		</div> <!--"col s12 l6">-->
+	</div> <!--"row container">-->
+	<div class="row blue-logo missao-visao-valores">
+		<div class="container">
+			<article class="item col s12 m4 center">
+				<span class="icon"><i class="material-icons medium">directions_run</i></span>
+				<h3 class="light">Missão</h3>
+				<p class="light">
+					Morbi ex enim, molestie et molestie a, rutrum eu massa. Quisque fermentum ex in justo volutpat, et congue nulla consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+				</p>
+			</article>
+			<article class="item col s12 m4 center">
+				<span class="icon"><i class="material-icons medium">visibility</i></span>
+				<h3 class="light">Visão</h3>
+				<p class="light">
+					Morbi ex enim, molestie et molestie a, rutrum eu massa. Quisque fermentum ex in justo volutpat, et congue nulla consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+				</p>
+			</article>
+			<article class="item col s12 m4 center">
+				<span class="icon"><i class="material-icons medium">grade</i></span>
+				<h3 class="light">Valores</h3>
+				<p class="light">	
+					• Nulla lacinia imperdiet sem vitae fringilla. <br>
+					• Pellentesque velit justo, ultricies sed sodales. <br>
+					• Praesent elementum enim at tortor sollicitudin. 
+				</p>
+			</article>
+		</div>
+	</div> <!-- row blue-logo missao-visao-valores"-->
+</section>
+
+<!--SERVIÇOS -->
+<section class="servicos bloco scrollspy" id="servicos">
+	<div class="row container">
+		<div class="col s12 center">
+			<h2 class="light titulo white-text">Serviços</h2>
+			<p class="light paragrafo white-text">
+				Nulla lacinia imperdiet sem vitae fringilla. Pellentesque velit justo, ultricies sed sodales at, dignissim id elit. Morbi purus tellus, tristique sodales bibendum scelerisque, sagittis eget sem. Sed pretium enim eu lacus semper, sed egestas tellus lobortis. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras semper felis blandit dolor tincidunt, ut eleifend magna malesuada. Praesent elementum enim at tortor sollicitudin, dignissim imperdiet augue laoreet. Donec vel pretium velit. Duis vitae commodo magna. Aliquam molestie a nisl et imperdiet.
+			</p>
+		</div> <!-- col s12"-->
+	</div> <!-- row container" -->
+	<div class="row container">
+		<!-- PILATES -->
+		<article class="col s12 m6 l3">
+			<div class="card">
+				<div class="card-image">
+					<img src="img/pilates.jpg" alt="Pilates" class="materialboxed">
+					<a href="#pilates-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+						<i class="material-icons">more_horiz</i>
+					</a>
+				</div>
+				<div class="card-content">
+					<h3 class="card-title">Pilates</h3>
+					<p class="light">
+						Nulla lacinia imperdiet sem vitae fringilla. Pellentesque velit justo, ultricies sed sodales at, dignissim id elit. 
+					</p>
+				</div> <!-- card-content -->
+			</div> <!-- card -->
+		</article>
+		<!-- MODAL PILATES -->
+		<div class="modal" id="pilates-modal">
+			<div class="modal-content">
+				<h5 class="light">O que é Pilates?</h5>
+				<p class="light black-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit ante. Vestibulum leo dolor, consequat et rutrum ac, commodo nec urna. Nulla felis dolor, maximus a dolor in, feugiat mattis urna. Donec a cursus lorem. In consequat euismod condimentum. Integer convallis quam ut enim laoreet, et tempus turpis tristique. Morbi ac augue diam. Integer iaculis lectus vel libero pulvinar facilisis. Pellentesque eget finibus dui.
+				</p>
+				<h5 class="light">Quais os benefícios do Pilates?</h5>
+				<ul class="collection">
+					<li class="collection-item">Duis eget luctus sem, vitae rhoncus nulla</li>
+					<li class="collection-item">Nulla lacinia imperdiet sem vitae fringilla</li>
+					<li class="collection-item">Mauris massa sapien, suscipit vitae odio a, tincidunt</li>
+					<li class="collection-item">Cras egestas elit a augue volutpat, non viverra augue porta</li>
+					<li class="collection-item">Suspendisse augue mauris, faucibus eget nulla efficitur</li>
+				</ul>
+			</div> <!-- modal-content -->
+			<div class="modal-footer">
+				<a class="btn blue-logo modal-action modal-close">Sair</a>
+			</div> <!-- modal-footer -->
+
+		</div> <!-- "modal" id="pilates-modal" -->
+
+		<!-- MUSCULAÇÃO -->
+		<article class="col s12 m6 l3">
+			<div class="card">
+				<div class="card-image">
+					<img src="img/musculacao.jpeg" alt="Musculação" class="materialboxed">
+					<a href="#musculacao-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+						<i class="material-icons">more_horiz</i>
+					</a>
+				</div>
+				<div class="card-content">
+					<h3 class="card-title">Musculação</h3>
+					<p class="light">
+						Nulla lacinia imperdiet sem vitae fringilla. Pellentesque velit justo, ultricies sed sodales at, dignissim id elit. 
+					</p>
+				</div> <!-- card-content -->
+			</div> <!-- card -->
+		</article>
+				<!-- MODAL MUSCULACAO -->
+		<div class="modal" id="musculacao-modal">
+			<div class="modal-content">
+				<h5 class="light">Saiba mais sobre Musculação</h5>
+				<p class="light black-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit ante. Vestibulum leo dolor, consequat et rutrum ac, commodo nec urna. Nulla felis dolor, maximus a dolor in, feugiat mattis urna. Donec a cursus lorem. In consequat euismod condimentum. Integer convallis quam ut enim laoreet, et tempus turpis tristique. Morbi ac augue diam. Integer iaculis lectus vel libero pulvinar facilisis. Pellentesque eget finibus dui.
+				</p>
+				<h5 class="light">Quais os benefícios da Musculação?</h5>
+				<ul class="collection">
+					<li class="collection-item">Duis eget luctus sem, vitae rhoncus nulla</li>
+					<li class="collection-item">Nulla lacinia imperdiet sem vitae fringilla</li>
+					<li class="collection-item">Mauris massa sapien, suscipit vitae odio a, tincidunt</li>
+					<li class="collection-item">Cras egestas elit a augue volutpat, non viverra augue porta</li>
+					<li class="collection-item">Suspendisse augue mauris, faucibus eget nulla efficitur</li>
+				</ul>
+			</div> <!-- modal-content -->
+			<div class="modal-footer">
+				<a class="btn blue-logo modal-action modal-close">Sair</a>
+			</div> <!-- modal-footer -->
+		</div> <!-- "modal" id="musculacao-modal" -->
+
+		<!-- ARTES MARCIAIS -->
+		<article class="col s12 m6 l3">
+			<div class="card">
+				<div class="card-image">
+					<img src="img/artesmarciais.jpg" alt="Artes Marciais" class="materialboxed">
+					<a href="#artesmarciais-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+						<i class="material-icons">more_horiz</i>
+					</a>
+				</div>
+				<div class="card-content">
+					<h3 class="card-title">Artes Marciais</h3>
+					<p class="light">
+						Nulla lacinia imperdiet sem vitae fringilla. Pellentesque velit justo, ultricies sed sodales at, dignissim id elit. 
+					</p>
+				</div> <!-- card-content -->
+			</div> <!-- card -->
+		</article>
+						<!-- MODAL ARTES MARCIAIS -->
+		<div class="modal" id="artesmarciais-modal">
+			<div class="modal-content">
+				<h5 class="light">O que são Artes Marciais</h5>
+				<p class="light black-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit ante. Vestibulum leo dolor, consequat et rutrum ac, commodo nec urna. Nulla felis dolor, maximus a dolor in, feugiat mattis urna. Donec a cursus lorem. In consequat euismod condimentum. Integer convallis quam ut enim laoreet, et tempus turpis tristique. Morbi ac augue diam. Integer iaculis lectus vel libero pulvinar facilisis. Pellentesque eget finibus dui.
+				</p>
+				<h5 class="light">Quais os benefícios de fazer Artes Marciais</h5>
+				<ul class="collection">
+					<li class="collection-item">Duis eget luctus sem, vitae rhoncus nulla</li>
+					<li class="collection-item">Nulla lacinia imperdiet sem vitae fringilla</li>
+					<li class="collection-item">Mauris massa sapien, suscipit vitae odio a, tincidunt</li>
+					<li class="collection-item">Cras egestas elit a augue volutpat, non viverra augue porta</li>
+					<li class="collection-item">Suspendisse augue mauris, faucibus eget nulla efficitur</li>
+				</ul>
+			</div> <!-- modal-content -->
+			<div class="modal-footer">
+				<a class="btn blue-logo modal-action modal-close">Sair</a>
+			</div> <!-- modal-footer -->
+		</div> <!-- "modal" id="artesmarciais-modal" -->
+
+		<!-- FUNCIONAL -->
+		<article class="col s12 m6 l3">
+			<div class="card">
+				<div class="card-image">
+					<img src="img/funcional.jpg" alt="Funcional" class="materialboxed">
+					<a href="#funcional-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+						<i class="material-icons">more_horiz</i>
+					</a>
+				</div>
+				<div class="card-content">
+					<h3 class="card-title">Treino Funcional</h3>
+					<p class="light">
+						Nulla lacinia imperdiet sem vitae fringilla. Pellentesque velit justo, ultricies sed sodales at, dignissim id elit. 
+					</p>
+				</div> <!-- card-content -->
+			</div> <!-- card -->
+		</article>
+		<!-- MODAL TREINO FUNCIONAL -->
+		<div class="modal" id="funcional-modal">
+			<div class="modal-content">
+				<h5 class="light">O que é Treino Funcional?</h5>
+				<p class="light black-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae velit ante. Vestibulum leo dolor, consequat et rutrum ac, commodo nec urna. Nulla felis dolor, maximus a dolor in, feugiat mattis urna. Donec a cursus lorem. In consequat euismod condimentum. Integer convallis quam ut enim laoreet, et tempus turpis tristique. Morbi ac augue diam. Integer iaculis lectus vel libero pulvinar facilisis. Pellentesque eget finibus dui.
+				</p>
+				<h5 class="light">Benefícios do Treino Funcional</h5>
+				<ul class="collection">
+					<li class="collection-item">Duis eget luctus sem, vitae rhoncus nulla</li>
+					<li class="collection-item">Nulla lacinia imperdiet sem vitae fringilla</li>
+					<li class="collection-item">Mauris massa sapien, suscipit vitae odio a, tincidunt</li>
+					<li class="collection-item">Cras egestas elit a augue volutpat, non viverra augue porta</li>
+					<li class="collection-item">Suspendisse augue mauris, faucibus eget nulla efficitur</li>
+				</ul>
+			</div> <!-- modal-content -->
+			<div class="modal-footer">
+				<a class="btn blue-logo modal-action modal-close">Sair</a>
+			</div> <!-- modal-footer -->
+		</div> <!-- "modal" id="funcional-modal" -->
+
+		<!-- BOTÃO QUADRO DE HORÁRIOS -->
+		<div class="row center btn-horario">
+			<a href="#horarios-modal" class="btn btn-large blue-logo modal-trigger"><i class="material-icons left">timer</i>Quadro de horários</a>
+		</div>
+
+		<!-- MODAL QUADRO DE HORÁRIOS -->
+		<div class="modal" id="horarios-modal">
+			<div class="modal-content">
+				<h5 class="light">Quadro de horários</h5>
+
+				<ul class="tabs">
+					<li class="tab col s3"><a href="#tabela-pilates">Pilates</a></li>
+					<li class="tab col s3"><a href="#tabela-musculacao">Musculação</a></li>
+					<li class="tab col s3"><a href="#tabela-artesmarciais">Artes Marciais</a></li>
+					<li class="tab col s3"><a href="#tabela-funcional">Treino Funcional</a></li>
+				</ul>
+
+				<!-- TABELA PILATES -->
+				<table class="centered responsive-table" id="tabela-pilates">
+					<thead>
+						<tr><th></th>
+							<th>Segunda</th>
+							<th>Terça</th>
+							<th>Quarta</th>
+							<th>Quinta</th>
+							<th>Sexta</th>
+							<th>Sábado</th>
+							<th>Domingo</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td></td>
+							<td>6:00 às 10:00</td>
+							<td></td>
+							<td>6:00 às 10:00</td>
+							<td></td>
+							<td>6:00 às 10:00</td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td></td>
+							<td></td>
+							<td>14:00 às 18:00</td>
+							<td></td>
+							<td>14:00 às 18:00</td>
+							<td></td>
+							<td>14:00 às 18:00</td>
+							<td></td>
+						</tr>
+				</table>
+
+				<!-- TABELA MUSCULAÇÃO -->
+				<table class="centered responsive-table" id="tabela-musculacao">
+					<thead>
+						<tr><th></th>
+							<th>Segunda</th>
+							<th>Terça</th>
+							<th>Quarta</th>
+							<th>Quinta</th>
+							<th>Sexta</th>
+							<th>Sábado</th>
+							<th>Domingo</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td></td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td></td>
+							<td>14:00 às 23:00</td>
+							<td>14:00 às 23:00</td>
+							<td>14:00 às 23:00</td>
+							<td>14:00 às 23:00</td>
+							<td>14:00 às 23:00</td>
+							<td>14:00 às 18:00</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<!-- TABELA ARTES MARCIAIS -->
+				<table class="centered responsive-table" id="tabela-artesmarciais">
+					<thead>
+						<tr><th></th>
+							<th>Segunda</th>
+							<th>Terça</th>
+							<th>Quarta</th>
+							<th>Quinta</th>
+							<th>Sexta</th>
+							<th>Sábado</th>
+							<th>Domingo</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td></td>
+							<td>8:00 às 10:00</td>
+							<td></td>
+							<td>8:00 às 10:00</td>
+							<td></td>
+							<td>8:00 às 10:00</td>
+							<td></td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td></td>
+							<td></td>
+							<td>14:00 às 20:00</td>
+							<td></td>
+							<td>14:00 às 20:00</td>
+							<td></td>
+							<td>10:00 às 16:00</td>
+							<td></td>
+						</tr>
+
+					</tbody>
+				</table>
+
+				<!-- TABELA TREINO FUNCIONAL -->
+				<table class="centered responsive-table" id="tabela-funcional">
+					<thead>
+						<tr><th></th>
+							<th>Segunda</th>
+							<th>Terça</th>
+							<th>Quarta</th>
+							<th>Quinta</th>
+							<th>Sexta</th>
+							<th>Sábado</th>
+							<th>Domingo</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td></td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td>6:00 às 12:00</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<td></td>
+							<td>14:00 às 20:00</td>
+							<td>14:00 às 20:00</td>
+							<td>14:00 às 20:00</td>
+							<td>14:00 às 20:00</td>
+							<td>14:00 às 20:00</td>
+							<td>14:00 às 18:00</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<a class="btn blue-logo modal-action modal-close">Sair</a>
+			</div>
+		</div>
+
+	</div> <!-- row container -->
+</section> <!-- class="servicos bloco scrollspy" id="servicos" -->
+
+<!-- UNIDADES -->
+<section class="unidades bloco scrollspy" id="unidades">
+	<div class="row container">
+		<div class="col s12 center">
+			<h2 class="light titulo white-text">Unidades</h2>
+			<p class="light paragrafo white-text">
+				Nulla lacinia imperdiet sem vitae fringilla. Pellentesque velit justo, ultricies sed sodales at, dignissim id elit. Morbi purus tellus, tristique sodales bibendum scelerisque, sagittis eget sem. Sed pretium enim eu lacus semper, sed egestas tellus lobortis. In hac habitasse platea dictumst. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras semper felis blandit dolor tincidunt, ut eleifend magna malesuada. Praesent elementum enim at tortor sollicitudin, dignissim imperdiet augue laoreet. Donec vel pretium velit. Duis vitae commodo magna. Aliquam molestie a nisl et imperdiet.
+			</p>
+		</div> <!-- col s12"-->
+	</div> <!-- row container" -->
+
+	<div class="row container">
+		<!-- BH -->
+		<article class="col s12 l6">
+			<div class="card horizontal">
+				<div class="card-image card-image-horizontal">
+					<img src="img/bh.jpg" alt="Belo Horizonte">
+				</div> <!-- card-image -->
+				<div class="card-stacked">
+					<div class="card-content">
+						<h3 class="card-title light">Belo Horizonte</h3>
+						<p class="light">
+							<i class="tiny material-icons left">phone</i>031 123 456<br>
+							<i class="tiny material-icons left">email</i>bh@boaforma.com<br>
+							<i class="tiny material-icons left">location_on</i>Av. Belo Horizonte, 123
+						</p>
+					</div> <!-- card-content -->
+				</div> <!-- card-stacked -->
+
+			</div> <!-- card horizontal -->
+		</article>		
+		<!-- SALVADOR -->
+		<article class="col s12 l6">
+			<div class="card horizontal">7
+				<div class="card-image card-image-horizontal">
+					<img src="img/salvador.jpg" alt="Salvador">
+				</div> <!-- card-image -->
+				<div class="card-stacked">
+					<div class="card-content">
+						<h3 class="card-title light">Salvador</h3>
+						<p class="light">
+							<i class="tiny material-icons left">phone</i>071 123 456<br>
+							<i class="tiny material-icons left">email</i>sv@boaforma.com<br>
+							<i class="tiny material-icons left">location_on</i>Av. Bahia, 123
+						</p>
+					</div> <!-- card-content -->
+				</div> <!-- card-stacked -->
+
+			</div> <!-- card horizontal -->
+		</article>
+		<!-- SP -->
+		<article class="col s12 l6">
+			<div class="card horizontal">
+				<div class="card-image card-image-horizontal">
+					<img src="img/sp.jpg" alt="São Paulo">
+				</div> <!-- card-image -->
+				<div class="card-stacked">
+					<div class="card-content">
+						<h3 class="card-title light">São Paulo</h3>
+						<p class="light">
+							<i class="tiny material-icons left">phone</i>011 123 456<br>
+							<i class="tiny material-icons left">email</i>sp@boaforma.com<br>
+							<i class="tiny material-icons left">location_on</i>Av. Paulista, 123
+						</p>
+					</div> <!-- card-content -->
+				</div> <!-- card-stacked -->
+
+			</div> <!-- card horizontal -->
+		</article>
+		<!-- RJ -->
+		<article class="col s12 l6">
+			<div class="card horizontal">
+				<div class="card-image card-image-horizontal">
+					<img src="img/rj.jpg" alt="Rio de Janeiro">
+				</div> <!-- card-image -->
+				<div class="card-stacked">
+					<div class="card-content">
+						<h3 class="card-title light">Salvador</h3>
+						<p class="light">
+							<i class="tiny material-icons left">phone</i>021 123 456<br>
+							<i class="tiny material-icons left">email</i>rj@boaforma.com<br>
+							<i class="tiny material-icons left">location_on</i> Av. do Rio, 123
+						</p>
+					</div> <!-- card-content -->
+				</div> <!-- card-stacked -->
+
+			</div> <!-- card horizontal -->
+		</article>
+	</div>
+</section> <!-- "unidades bloco scrollspy"> -->
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- MATERIALIZE JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<!-- JAVASCRIPT -->
+<script>
+	// INICIALIZAÇÃO
+	$(document).ready(function(){
+		//menu mobile
+		$(".button-collapse").sideNav();
+		//LINKS INTERNOS
+		$(".scrollspy").scrollSpy({
+			scrollOffset: 0
+		});
+		//CAROUSEL
+		
+  		$('.carousel.carousel-slider').carousel({fullWidth: true});
+
+  		// MODAL
+  		$(".modal").modal();
+        
+
+	});
+
+	// ADICIONANDO NAVCOLOR
+	$(window).on("scroll", function(){
+		if($(window).scrollTop() > 100) {
+			$(".navbar").addClass("nav-color");
+		} else {
+			$(".navbar").removeClass("nav-color");
+		}
+	});
+</script>
+
+</body>
+</html>
