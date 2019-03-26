@@ -131,12 +131,27 @@ nav i.material-icons, nav a.button-collapse i {
 /* MEDIA (BREAK POINTS) - AJUSTA TAMANHO PARA SMARTPHONES, TABLETS E DESKTOPS */
 @media only screen and (max-width: 480px) { /*smartphones*/
 .card-image-horizontal {display: none;}
+
+@keyframes mudarbg {
+	40% {background-image: url('../img/bg2\ -mobile.jpg');}
+	80% {background-image: url('../img/bg3-mobile.jpg');}
+    100% {background-image: url('../img/bg-mobile.jpg');}
 }
+
+}
+
 
 @media only screen and (min-width: 601px) { /*tablets*/
 .banner {padding-top: 4.5rem;}	
 .banner h2 {font-size: 4rem;}
 .container {width: 85%;}
+
+@keyframes mudarbg {
+	40% {background-image: url('../img/bg2\ -mobile.jpg');}
+	80% {background-image: url('../img/bg3-mobile.jpg');}
+    100% {background-image: url('../img/bg-mobile.jpg');}
+}
+
 }
 
 @media only screen and (min-width: 993px) { /*desktops*/
